@@ -1,0 +1,146 @@
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.Menu{
+			
+			width: 100%;
+			height: 82px;
+			background: #363636;
+			text-align: left;
+			position: relative;
+		}
+		body,html{
+			height: 100%;
+		}
+		li{	
+			bottom: 15%;
+			right: 25%;
+			transform: translate(25%,25%);
+			display: inline-block;
+			list-style: none;
+			text-align: center;
+			display: inline-block;
+			text-align: center;
+			padding: 25px 0 0 0;
+			position: relative;
+			left: 10%;
+		}
+
+		a{
+			font-size: 19px;
+			color: white;
+			text-decoration: none;
+			font-family: Poppins;
+			margin: 6px;
+			border-radius: 20%;
+		}
+		a:hover{
+			background: #808080;
+		
+		}
+		.cel{
+			position: absolute;
+			bottom: 15px;
+			right: 2%;
+		}
+		.img1{
+			position: absolute;
+			top: 50%;			
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+		.img2{
+			width: 100%;
+			height: 600px;
+		}
+		.Rising{
+			position: relative;
+			width: 100%;
+			height: 600px;
+			background-image: url(imagens/Fundo.png);
+		}
+		.Linha{
+			width: 100%;
+			height: 3px;
+			background: #FF8C00;
+
+		}
+		.p{
+			top: 40%;
+			left: 25%;
+			transform: translate(-25%,-25%);
+			position: absolute;
+			left: 63%;
+			bottom: 31px;
+			color: white;
+			font-family: arial;
+			font-size: 18px;
+
+		}
+
+		.Formulario{
+			position: relative;
+			width: 30%;
+			height: 190px;
+			position: absolute;
+			top: 300px;
+			left: 145px;
+			color: white;
+			font-size: 15px;
+			font-family: arial;
+		}
+		.texto2{
+			position: absolute;
+			width: 37%;
+			height: 75px;
+			top: 170px;
+			left: 145px;
+			color: white;
+			font-size: 20px;
+			font-family: arial;
+		}
+
+		#submit{
+			position: absolute;
+			bottom: -89px;
+			left: 33px;
+			width: 80%;
+			height: 40px;
+			margin: 8px;
+			background: #FF8C00;
+			cursor: pointer;
+			border: none;
+		}
+		#text1{
+			width: 100%;
+			height: 25px;
+		}
+		#submit:hover{
+			background: #808080;
+		}
+		.Qu{
+			position: absolute;
+			left: 40px;
+			width: 80%;
+
+		}
+		.caro{
+			position: absolute;
+			top: 824px;
+			right: 225px;
+			box-shadow: 2px 2px 4px black;
+			overflow: hidden;			
+			height: 320px;
+			width: 320px;			
+
+		}
+		.Carousel{
+			display: flex;
+			transition: transform 0,5s ease-in-out;
+			transform: translate(0);
+		}
+		<!--.car{
+			object-fit: cover;
+		}
